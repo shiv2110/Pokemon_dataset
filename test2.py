@@ -1,0 +1,11 @@
+from test import *
+import sys
+test_case = [[sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5], sys.argv[6], sys.argv[7], sys.argv[8]]]
+test_case = np.array(ct.transform(test_case))
+test_case = sc.transform(test_case)
+output = classifier.predict(test_case)
+
+if output[0] == 1:
+    print('Wow! Your pokemon is Legendary')
+else:
+    print('Your pokemon is not Legendary')
