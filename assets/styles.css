@@ -1,0 +1,55 @@
+body{
+    background-image: url('post_pokemon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+
+}
+#test-form{
+    text-align: left;
+    margin-left: 700px;
+    padding-top: 10px;
+
+}
+input{
+    padding: 5px;
+    margin-top: 10px; 
+    border-radius: 10px;
+    background-color: #ddd4d6;
+    
+}
+label{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+#buttonId{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: salmon;
+}
+
+@media(max-width: 998px){
+    
+    #test-form{
+        text-align: left;
+        margin-left: 400px;
+        padding-top: 10px;
+    
+    }
+}
+@media(max-width: 700px){
+    #test-form{
+        text-align: left;
+        margin-left: 160px;
+        padding-top: 10px;
+    
+    }
+}

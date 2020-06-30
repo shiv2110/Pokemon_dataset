@@ -1,0 +1,72 @@
+<%- include("../partials/head.ejs") %>
+
+
+    <body>
+        <form id="test-form" method="POST" action="/name">
+            <label for="type1">Enter the type of your pokemon</label>
+            <br>
+            <input type="text" name="type1" value="<%= qs.type1 %>" required>
+            <br>
+            <br>
+
+            <label for="hp">Enter HP of your pokemon</label>
+            <br>
+            <input type="number" name="hp" value="<%= qs.hp %>" required>
+            <br>
+            <br>
+
+            <label for="attack">Enter Attack level of your pokemon</label>
+            <br>
+            <input type="number" name="attack" value="<%= qs.attack %>" required>
+            <br>
+            <br>
+
+            <label for="defense">Enter Defense power of your pokemon</label>
+            <br>
+            <input type="number" name="defense" value="<%= qs.defense %>" required>
+            <br>
+            <br>
+
+            <label for="spatk">Enter Sp-Atk of your pokemon</label>
+            <br>
+            <input type="number" name="spatk" value="<%= qs.spatk %>" required>
+            <br>
+            <br>
+
+            <label for="spdef">Enter Sp-Def of your pokemon</label>
+            <br>
+            <input type="number" name="spdef" value="<%= qs.spdef %>" required>
+            <br>
+            <br>
+
+            <label for="speed">Enter Speed limit of your pokemon</label>
+            <br>
+            <input type="number" name="speed" value="<%= qs.speed %>" required>
+            <br>
+            <br>
+
+            <label for="generation">Enter the generation your pokemon belongs to</label>
+            <br>
+            <input type="number" name="generation" value="<%= qs.generation %>" required>
+            <br>
+            <br>
+
+            <button id="buttonId" onclick="myFunction()">Submit</button>
+            <!--
+            <input type="submit" value="submit" onclick="myFunction()">
+            -->
+
+        </form>
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+</html>
